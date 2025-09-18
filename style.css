@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fef9f5, #e6edf7, #d7f5e9);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+    background-color: #1e293b;
+    color: #ffffff;
+    font-size: 40px;
+    height: 80px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.choice {
+    height: 160px;
+    width: 160px;
+    margin: 25px 8px 8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.1s;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #b7bbbe; 
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: contain;
+    background: transparent;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 0 0 0;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+    font-size: 25px;
+    padding: 40px 0 0 0;
+}
+
+#user-score, #comp-score {
+    font-size: 60px;
+    font-weight: bold;
+    color: #1e293b;
+}
+
+.msg-container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+.neutral-msg {
+    background-color: #293241;
+    font-size: 22px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    display: inline-block;
+    color: white;
+}
+
+.win-msg {
+    background-color: #d4edda;
+    border: 2px solid #28a745;
+    color: #155724;
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.lose-msg {
+    background-color: #f8d7da;
+    border: 2px solid #dc3545;
+    color: #721c24;
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.draw-msg {
+    background-color: #fff3cd;
+    border: 2px solid #ffc107;
+    color: #856404;
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
