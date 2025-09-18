@@ -14,6 +14,9 @@ Choose Rock, Paper, or Scissors.
 The computer will make its move.
 Results are displayed instantly with updated scores.
 
+Demo 🚀
+https://vidhij1217.github.io/Rock-Paper-Scissors-Game/
+
 Technologies Used 🛠️
 HTML5
 CSS3 (Flexbox, Gradients, Transitions)
