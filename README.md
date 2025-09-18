@@ -26,3 +26,5 @@ Future Improvements 🔮
 Add sounds for moves & results
 Multiplayer mode
 Animations for moves
+
+![Game Screenshot](./images/demo.png)
